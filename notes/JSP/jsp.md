@@ -1,8 +1,13 @@
 # JSP
 
+* [include와 forward의 차이](#include와-forward의-차이)
+* [cookie](#cookie)
+* [static page vs dynamic page](#static-page-vs-dynamic-page)
+* [Web Server vs WAS(Web Application Server)](#web-server-vs-was)
+
 ---
 
-## include와 forward의 차이
+# include와 forward의 차이
 
 include : `<jsp:include page=”path”/>`
 
@@ -19,7 +24,7 @@ requst의 제어권을 넘기는 방식이다.
 - 
 ---
 
-## cookie
+# cookie
 
 - 쿠키는 디바이스에 파일형태로  저장된다.
 - 웹 사이트에서 클라이언트의 정보를 저장하기 위해서 클라이언트의 디바이스에 저장하는 파일을 말한다. 특정 사용자에게 맞춤 광고를 보여주거나 최근 본 상품 같은 정보를 저장한다.
@@ -27,7 +32,7 @@ requst의 제어권을 넘기는 방식이다.
 
 ---
 
-## static page vs dynamic page
+# static page vs dynamic page
 
 ### static page 정적 페이지
 -  파일 경로를 요청하면 Web Server는 동일한 경로를 찾아 해당 <File Contents>를 반환한다. 항상 같은 페이지를 반환하기 때문에 정적(static)이다.
@@ -36,8 +41,9 @@ requst의 제어권을 넘기는 방식이다.
 -  파일 경로를 요청할 때 인자를 넘겨주면 WAS(Web application Server)는 인자에 따라 다른 페이지를 반환한다.
   
 ---
-## Web Server vs WAS(Web Application Server)
   
+# web server vs was
+ 
 ### Web Server
 
 - 하드웨어로는 Web server가 있는 컴퓨터를 말하고, 소프트웨어로는 client의 request를 받아서 static page, contents를 제공하는 프로그램이다.
